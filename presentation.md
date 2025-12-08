@@ -129,7 +129,7 @@ Finally, the idea is **to keep the site constantly updated** with new photos, se
 
 ---
 
-## What did I learned from this course?
+## What did I learn from this course?
 
 Thanks to this course I learned to create simple web sites or landing pages. 
 Even if I won’t be an expert programmer, I think all I learned during this course will be **useful both for my CV and for my job.** 
