@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>That's Amore Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="my-style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+<body class="body"> 
+<header class="fixed-top header-hidden">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="#"><img src="img/logo.avif" alt="logo" width="60%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#"></a>
+                    <a class="nav-link" href="#restaurant">Our Restaurant</a>
+                    <a class="nav-link" href="#menu">Our Menu</a>
+                    <a class="nav-link" href="#staff">Our Staff</a>
+                    <a class="nav-link" href="#contact">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="mioPopup" class="popup-overlay">
+  <div class="popup-content">
+    <span class="close-btn">&times;</span>
+    <h2>Welcome at <em>That's Amore</em>!</h2>
+    <h4>Opening hours</h4>
+    <p>Tuesday-Saturday: 11 a.m. - 3 p.m. / 6:30 p.m. - 11:30 p.m.</p>
+    <p>Saturday: 6:30 p.m. - 11:30 p.m.</p>
+    <p>Sunday: Closed</p><br>
+    <h4>We look forward to welcoming you!</h4>
+  </div>
+</div>  
+<div class="video-container">
+    <video autoplay muted loop class="video-intro">
+        <source src="thatsamore-video-home.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div> 
+    <div class="video-content">
+        <h2 class="video-welcome text-center">Welcome at THAT'S AMORE!</h2>
+    </div>
+</div>
+    <div class="container-fluid d-flex p-5 justify-content-center align-items-center space-restaurant" name="restaurant" id="restaurant">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>Our Restaurant</h1>
+                <h3>A real journey for your taste buds</h3><br>
+                <p class="fade-in-item"><strong><em>That's Amore</em></strong> is a world of authentic experiences and delicate emotions for the palate.
+A warm and welcoming atmosphere, where you can enjoy <strong>traditional Italian dishes</strong> revisited with a modern touch.
+We offer a menu that changes several times during the year, with a rigorous selection of seasonal products and special attention to the choice of raw materials.
+We will value and favor local quality products.
+We collaborate with the best fish importers and select the best cuts of meat.</p>
+            </div>
+            <div class="col-lg-3 offset-lg-1">
+                <img src="img/ristorante.jpg" alt="restaurant image" width="110%" height="auto">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center" style="padding: 0 5% 10% 5%;">
+        <div class="row">
+            <div class="col-12">
+                <h3>A love story</h3><br>
+                <p class="fade-in-item"><strong><em>That's Amore</em> restaurant</strong> is the creation of two dynamic and entrepreneurial young men, Domenico and Leonardo, who share a passion for the culinary world.
+The name "<strong><em>That's Amore</em></strong>" was inspired by the famous Dean Martin song and celebrates Italian culture abroad.
+At <strong><em>That's Amore</em></strong>, we aim to showcase our culinary skills and bring a taste of Italy to your table.
+We believe in the power of love, passion, and respect for the art of cooking, and it shows in every dish we prepare.<br><br>
+<a class="a-contact" href="#contact">So come join us</a>, and let us take you on a journey of authentic Italian flavors, from the comfort of our charming place.</p>
+            </div>
+        </div>
+    </div>
+<div class="container-fluid p-5 menu" name="menu" id="menu">
+    <div class="row"> 
+        <div class="col-lg-8 col-md-12 col-sm-12 align-items-center">
+            <h1>Our Menu</h1><br>
+            <p class="fade-in-item">The chef's goal is to transmit his passion for the culinary art by making you discover new flavors of Italian gastronomy. 
+            He emphasizes the use of local products, favoring short circuits as much as possible.
+            The objective is to make you discover the true Italian gastronomic culture and to make you aware of the traditional Italian cuisine.
+            We will take you on a sensory journey filled with unique emotions, from the moment you arrive until dessert.</p><br>
+            <div class="d-lg-none d-xl-none">
+                <button type="button" class="btn btn-menu col-md-4 col-sm-8 space" onclick="window.open('menu.pdf', '_blank')">
+                SEE OUR MENU
+                </button>
+            </div>
+            <div class="col-sm-12 col-md-12 d-lg-none d-xl-none text-center space">
+            <img src="img/spaghetti.jpg" alt="starter" class="img-fluid" height="auto">
+            </div>
+            </div>
+            <div class="col-lg-4 d-none d-lg-grid d-lg-block text-center">
+            <img src="img/dish.png" alt="dish" class="img-fluid spinning-dish" width="80%" height="auto">
+            </div>
+            <div class="row">
+            <div class="col-12 d-none d-lg-grid d-xl-grid">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                Starters
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <h3>THAT’S AMORE STARTER - 42 CHF</h3>
+                                <p>Mixed selection of Italian specialties, hot and cold, with flavors from the sea and land. (Price for 2 people)</p><br>
+                                <h3>SMOKED TUNA - 25 CHF</h3>
+                                <p>Smoked tuna bresaola accompanied by fresh arugula, cherry tomatoes, and yogurt sauce.</p><br>
+                                <h3>LA PARMIGIANA - 19 CHF</h3>
+                                <p>Baked eggplant au gratin with tomato sauce, mozzarella fior di latte, and basil.</p><br>
+                                <h3>IL CARPACCIO DI BRESAOLA - 22 CHF</h3>
+                                <p>Carpaccio of Valtellina beef bresaola served with lemon-flavored whipped cow's milk ricotta, fresh mint, and extra virgin olive oil.</p><br>
+                                <h3>MiXED GREEN SALAD - 7 CHF</h3>
+                                <p>Green Salad</p><br>
+                                <h3>SEASONAL SALAD - 9 CHF</h3>
+                                <p>Mixed seasonal salad.</p><br>
+                                <h3>SEASONAL VEGETABLES - 15 CHF</h3>
+                                <p>Seasonal vegetables Mediterranean style.</p><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                First Dishes
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <h3>SEASONAL TAGLIOLINI - 25 CHF</h3>
+                                <p>Tagliolini (fresh egg pasta) tossed with lemon-scented butter, crisp green asparagus, and garnished with stracciatella di bufala campana cheese.</p><br>
+                                <h3>PACCHERI ALLA LAMPARA - 29 CHF</h3>
+                                <p>Paccheri (fresh egg pasta) tossed with eggplant, fresh cherry tomatoes, pieces of swordfish and mint. Salted ricotta and Modica chocolate powder.</p><br>
+                                <h3>ORECCHIETTE AMORE - 27 CHF</h3>
+                                <p>Orecchiette (fresh egg pasta) served with pork sausage flavored with wild fennel and turnip greens.</p><br>
+                                <h3>LA TROFIA PRIMAVERA - 29 CHF</h3>
+                                <p>Trofie (fresh egg pasta) tossed with cream of peas, fresh cuttlefish, and almond petals.</p><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Second Dishes
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <h3>SIRLOIN STEAK - 39 CHF</h3>
+                                <p>Grilled sirloin steak with rocket salad, served with french fries and homemade mushroom sauce.</p><br>
+                                <h3>OCTUPUS TENTACLE - 35 CHF</h3>
+                                <p>Grilled octopus tentacle, served on a bed of fava bean cream, accompanied by seasonal vegetables sautéed in extra virgin olive oil.</p><br>
+                                <h3>TROPEANA-STYLE TUNA - 37 CHF</h3>
+                                <p>Seared fresh tuna steak, accompanied by sweet and sour Tropea D.O.P. red onions and vegetables sautéed in extra virgin olive oil.</p><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                Desserts
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
+                            <div class="accordion-body">
+                                <h3>TIRAMISÚ - 12 CHF</h3>
+                                <p>Mascarpone cream, ladyfingers, coffee, and cocoa powder.</p><br>
+                                <h3>WARM PISTACHIO HEART - 12 CHF</h3>
+                                <p>Pistachio Torino cake served with a scoop of vanilla ice cream.</p><br>
+                                <h3>SICILIAN CANNOLI - 10 CHF</h3>
+                                <p>Sicilian cannoli filled with sheep's milk ricotta cream and chocolate chips.</p><br>
+                                <h3>SEMIFREDDO DEL CAPO - 10 CHF</h3>
+                                <p>Semifreddo made with Amaro del Capo herbal liqueur and amaretti biscuit crumble.</p><br>
+                                <h3>CHEESE SELECTION - 19 CHF</h3>
+                                <p>Selection of cheeses (Beppino Ocelli) with Millefiori honey.</p><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="padding: 5% 5% 0 5%;" name="staff" id="staff">
+        <h1>Our Staff</h1>
+</div>   
+<div class="container-fluid d-flex justify-content-center align-items-center" style="padding: 0% 5% 3% 5%;"> 
+    <div class="row">
+            <div class="col-lg-7">
+                <h2>Leonardo</h2>
+                <h3>The chef</h3><br>
+                <div class="col-lg-4 text-center d-sm-block d-md-block d-lg-none">
+                <img src="img/chef.jpg" alt="waiter image" width="100%" height="auto" class="img-staff-mobile">
+                </div>
+                <p class="fade-in-item">His name is Leonardo and he is a true <strong>lover of cooking.</strong>
+During his travels through various regions of Italy and the world, he has acquired an <strong>encyclopedic knowledge of cuisine and culinary culture.</strong>
+His studies in hotel management at one of the most prestigious institutes in Calabria only reinforced his passion for cooking.
+During his culinary adventures in <strong>Florence, Turin and the Canary Islands</strong>, he discovered new flavors and inspirations that fueled his culinary creativity.
+Finally, he moved to Lausanne to make his dream come true: to share his passion for cooking with the world by opening his own restaurant.
+He will be delighted to welcome you and help you discover the richness of Italian cuisine and culinary culture.
+He promises a warm and unforgettable culinary experience!</p>
+            </div>
+            <div class="col-lg-4 text-center d-none d-lg-block d-xl-block">
+                <img src="img/chef.jpg" alt="waiter image" width="100%" height="auto" class="img-staff">
+            </div>
+        </div> 
+</div>    
+<div class="container-fluid d-flex justify-content-center align-items-center" style="padding: 0 5% 5% 5%">
+        <div class="row">
+            <div class="col-lg-4 text-center d-none d-lg-block d-xl-block">
+                <img src="img/waiter.jpg" alt="waiter image" width="100%" height="auto" class="img-staff">
+            </div>
+            <div class="col-lg-7 offset-lg-1">
+                <h2>Domenico</h2>
+                <h3>The restaurant manager</h3><br>
+                <div class="col-lg-4 text-center d-sm-block d-md-block d-lg-none">
+                <img src="img/waiter.jpg" alt="waiter image" width="100%" height="auto" class="img-staff-mobile">
+                </div>
+                <p class="fade-in-item">His name is Leonardo and he is a true <strong>lover of cooking.</strong>
+During his travels through various regions of Italy and the world, he has acquired an <strong>encyclopedic knowledge of cuisine and culinary culture.</strong>
+His studies in hotel management at one of the most prestigious institutes in Calabria only reinforced his passion for cooking.
+During his culinary adventures in <strong>Florence, Turin and the Canary Islands</strong>, he discovered new flavors and inspirations that fueled his culinary creativity.
+Finally, he moved to Lausanne to make his dream come true: to share his passion for cooking with the world by opening his own restaurant.
+He will be delighted to welcome you and help you discover the richness of Italian cuisine and culinary culture.
+He promises a warm and unforgettable culinary experience!</p>
+            </div>
+            
+        </div>
+</div> 
+<div style="padding:5%;">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="hover" data-bs-interval="2000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carosello-4.jpg" class="d-block w-100" alt="image-1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carosello-2.jpg" class="d-block w-100" alt="image-2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carosello-3.jpg" class="d-block w-100" alt="image-3">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carosello-1.jpg" class="d-block w-100" alt="image-4">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carosello-5.jpg" class="d-block w-100" alt="image-5">
+            </div>
+        </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div> 
+</div>
+<div style="padding-bottom:10%" class="container-fluid p-lg-5" name="contact" id="contact"> 
+    <div class="row">
+            <div class="col-lg-6 col-sm-12 col-md-12">
+                <h1>Contact us</h1>
+                <h3><em>Call or email us to book a reservation!</em></h3><br>
+                <h4 class="fade-in-item">Phone:</h4><p class="fade-in-item"><a href="tel:+410216530402" class="a-contact">+41 021 653 04 02</a></p>
+                <br>
+                <h4 class="fade-in-item">Email:</h4><p class="fade-in-item"><a href="mailto:hello@thatsamore-restaurant.com" class="a-contact">hello@thatsamore-restaurant.com</a></p>
+                <br>
+                <h3 class="fade-in-item">Opening hours</h3>
+                <p class="fade-in-item"><strong>Tuesday-Saturday:</strong> 11 a.m. - 3 p.m. / 6:30 p.m. - 11:30 p.m.<br><strong>Saturday:</strong> <em>Open evenings only</em><br><strong>Sunday:</strong> Closed<br>Kitchen from 11:30 a.m. to 2 p.m. / from 6:30 p.m. to 10 p.m.</p>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2744.984064855487!2d6.64629727530191!3d46.528217161821935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2f32a1b743dd%3A0x7fc85b03ccfbb794!2sThat&#39;s%20Amore!5e0!3m2!1sit!2sit!4v1763670777231!5m2!1sit!2sit" style="border:0;" loading="lazy" referrerpolicy="no-referrer" width="100%" height="450"></iframe>
+            </div>
+        </div> 
+</div>
+<a id="back-to-top" href="#" class="btn btn-menu back-to-top" role="button" aria-label="Torna su">
+    <i class="fas fa-chevron-up">Back to Top ↑</i> 
+</a>
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-column footer-col-1">
+            <div class="footer-logo text-center">
+                <a href="#"><img src="img/logo.avif" alt="logo"></a>
+            </div>
+            <div class="social-links text-center">
+                <a href="https://www.facebook.com/people/Thats-amore/100090057232254/#" aria-label="Facebook"><i class="fab fa-facebook-f">Facebook</i></a>
+                <a href="https://www.instagram.com/restaurantthatsamore/" aria-label="Instagram"><i class="fab fa-instagram">Instagram</i></a>
+            </div>
+        </div>
+        <div class="footer-column footer-col-2">
+            <h3>THAT'S AMORE</h3>
+            <p>
+                <em>That's Amore</em> is an Italian Restaurant, where traditional Italian tastes meet innovative flavors. Discover The unique cuisine by <em>Tha's Amore!</em> 
+            </p>
+        </div>
+        <div class="footer-column footer-col-3">
+            <h3>DISCOVER</h3>
+            <ul class="footer-menu">
+                <li><a href="#restaurant">Our Resaturant</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#staff">Our Staff</a></li>
+                <li><a href="#contact">Contact us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 That's Amore. All rights reserved.</p>
+    </div>
+</footer> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+    const fadeElements = document.querySelectorAll('.fade-in-item');
+
+
+    const observerOptions = {
+        root: null, 
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observerCallback = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    fadeElements.forEach(el => {
+        observer.observe(el);
+    });
+</script>
+<script>
+    const backToTopButton = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    });
+
+    backToTopButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+<script>
+    const header = document.querySelector('header');
+    let lastScrollY = window.scrollY;
+    let hideTimer;
+    
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > lastScrollY && window.scrollY > 100) {
+            header.classList.add('header-hidden');
+        } 
+        else {
+            header.classList.remove('header-hidden');
+        }
+
+        lastScrollY = window.scrollY;
+    });
+
+    const triggerHeight = 50; 
+
+    window.addEventListener('mousemove', (e) => {
+        if (header.classList.contains('header-hidden') && e.clientY < triggerHeight) {
+            
+            header.classList.remove('header-hidden');
+            
+            clearTimeout(hideTimer);
+            hideTimer = setTimeout(() => {
+                if (window.scrollY > 100) {
+                    header.classList.add('header-hidden');
+                }
+            }, 2000); 
+        } else if (e.clientY >= triggerHeight) {
+             clearTimeout(hideTimer);
+        }
+    });
+
+    header.addEventListener('mouseenter', () => {
+        clearTimeout(hideTimer);
+    });
+    
+    header.addEventListener('mouseleave', () => {
+        if (window.scrollY > 100 && !header.classList.contains('header-hidden')) {
+            hideTimer = setTimeout(() => {
+                header.classList.add('header-hidden');
+            }, 1000); 
+        }
+    });
+    window.addEventListener('load', () => {
+        header.classList.remove('header-hidden');
+    });
+
+    window.addEventListener('load', function() {
+    const popupVisto = localStorage.getItem('popupGiaVisto');
+
+    if (!popupVisto) {
+        setTimeout(function() {
+            document.getElementById('mioPopup').style.display = 'block';
+        }, 2000);
+    }
+});
+
+document.querySelector('.close-btn').addEventListener('click', function() {
+    document.getElementById('mioPopup').style.display = 'none';
+    localStorage.setItem('popupGiaVisto', 'true'); 
+});
+</script>
+</body>
+</html>

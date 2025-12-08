@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'); 
+
+body {
+        background-color: #2F0C14 !important;
+        color: #ffffff;
+}
+
+strong {
+    color: #F5DD90;
+}
+
+em {
+    font-family: "EB Garamond", serif;
+    color: #F5DD90;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #F5DD90;
+    font-family: "EB Garamond", serif !important;
+    letter-spacing: 2%;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #F5DD90;
+    font-family: "EB Garamond", serif !important;
+    letter-spacing: 2%;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: "EB Garamond", serif !important;
+    letter-spacing: 2%;
+}
+
+p, ul, li {
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.reveal .slides {
+    text-align: left; 
+}
+
+.reveal section p,
+.reveal section h2,
+.reveal section h3,
+.reveal section ul,
+.reveal section ol {
+    text-align: left;
+}
+
+.reveal .slides section:first-child h1,
+.reveal .slides section:first-child p {
+    text-align: center;
+}
+
+.reveal .slides section:last-child h1,
+.reveal .slides section:last-child p {
+    text-align: center;
+}
