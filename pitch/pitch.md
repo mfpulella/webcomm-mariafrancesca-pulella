@@ -3,10 +3,9 @@ title: "That’s Amore Restaurant"
 author: "Maria Francesca Pulella (mat. 76765A)"
 format: 
   revealjs:
-    theme: [pres-css]
+    theme: [pitch-style]
     preview-links: auto
     chalkboard: 
-      boardmarker-width: 2
 from: markdown+emoji
 execute:
   echo: true
@@ -52,10 +51,10 @@ Some problems encountered on the **original websites**:
 
 <div class="columns">
 <div class="column">
-<img src="presentazione/thatsamore-original-1.png">
+<img src="imgs/thatsamore-original-1.png">
 </div>
 <div class="column">
-<img src="presentazione/thatsamore-original-2.png">
+<img src="imgs/thatsamore-original-2.png">
 </div>
 </div>
 
@@ -66,13 +65,13 @@ Some problems encountered on the **original websites**:
 
 <div class="columns">
 <div class="column">
-<img src="presentazione/thatsamore-new-1.png">
+<img src="imgs/thatsamore-new-1.png">
 </div>
 <div class="column">
-<img src="presentazione/thatsamore-new-2.png">
+<img src="imgs/thatsamore-new-2.png">
 </div>
 <div class="column">
-<img src="presentazione/thatsamore-new-3.png">
+<img src="imgs/thatsamore-new-3.png">
 </div>
 </div>
 
@@ -88,7 +87,7 @@ Some problems encountered on the **original websites**:
 
 <strong>White</strong> (cod. FFFFFF) - I used it for paragraphs and on dark backgrounds.
 
-<img src="presentazione/bordeaux.jpg"> <img src="presentazione/beige.jpg"> <img src="presentazione/marroncino.jpg"> <img src="presentazione/bianco.jpg">
+<img src="imgs/bordeaux.jpg"> <img src="imgs/beige.jpg"> <img src="imgs/marroncino.jpg"> <img src="imgs/bianco.jpg">
 
 ---
 
@@ -96,11 +95,11 @@ Some problems encountered on the **original websites**:
 
 I used the font <strong>"Raleway"</strong> for the paragraphs and buttons.
 <br>
-<img src="presentazione/font-ralaway.png">
+<img src="imgs/font-ralaway.png">
 <br>
 I chose the font <strong>"EB Garamond"</strong> for headlines in the body, in the menu and in the footer.
 <br>
-<img src="presentazione/font-garamond.png">
+<img src="imgs/font-garamond.png">
 <br>
 
 I chose images which could reflect the elegance of the restaurant and that f the Italian cuisine, as well as the creation of the video. 
@@ -142,4 +141,3 @@ In my opinion, knowing the basis of HTML, CSS and JavaScript languages can help 
 In addition to this, I noticed that thanks to this kind of language **your approach to web sites changes** as well as **your way of thinking of it and of the process to build a new one.**
 
 # THANK YOU {.center-slide}
-
