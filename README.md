@@ -8,4 +8,5 @@ To do it I used:
 - Freepik to find images
 
 Here it is the link of my website: https://mfpulella.github.io/webcomm-mariafrancesca-pulella/
+
 This is the presentation of my work: https://mfpulella.github.io/webcomm-mariafrancesca-pulella/pitch/my-pitch
