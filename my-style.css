@@ -448,6 +448,58 @@ header {
     opacity: 0.8;
 }
 
+.cookie-banner-style {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F5DD90;
+    color: #420C14;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+    display: none; 
+}
+
+.button-accept {
+    background-color: #420C14 !important;
+    color:#F5DD90 !important;
+    font-weight: 600 !important;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.button-accept:hover {
+    background-color: #24070b !important;
+    color: #F5DD90;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.button-reject {
+    background-color: #F5DD90;
+    color: #420C14;
+    border-radius: 5%;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.button-reject:hover {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
 @keyframes fadeIn {
   from {opacity: 0; transform: translateY(-20px);}
   to {opacity: 1; transform: translateY(0);}
